@@ -6,7 +6,7 @@
  "data": "2026-11-02",
  "finalizado": false,
  "total": 40,
- "jogados": 12,
+ "jogados": 13,
  "classificacao": [
   {
    "pos": 1,
@@ -30,6 +30,16 @@
   },
   {
    "pos": 3,
+   "nome": "Leandrinho",
+   "j": 2,
+   "v": 2,
+   "d": 0,
+   "setsPro": 6,
+   "setsContra": 0,
+   "pontos": 4
+  },
+  {
+   "pos": 4,
    "nome": "Carenato",
    "j": 2,
    "v": 2,
@@ -39,7 +49,7 @@
    "pontos": 4
   },
   {
-   "pos": 4,
+   "pos": 5,
    "nome": "Isac",
    "j": 2,
    "v": 2,
@@ -49,7 +59,7 @@
    "pontos": 4
   },
   {
-   "pos": 5,
+   "pos": 6,
    "nome": "Igor",
    "j": 2,
    "v": 1,
@@ -59,24 +69,14 @@
    "pontos": 3
   },
   {
-   "pos": 6,
-   "nome": "Wander",
-   "j": 1,
-   "v": 1,
-   "d": 0,
-   "setsPro": 3,
-   "setsContra": 0,
-   "pontos": 2
-  },
-  {
    "pos": 7,
-   "nome": "Leandrinho",
-   "j": 1,
+   "nome": "Wander",
+   "j": 2,
    "v": 1,
-   "d": 0,
+   "d": 1,
    "setsPro": 3,
-   "setsContra": 0,
-   "pontos": 2
+   "setsContra": 3,
+   "pontos": 3
   },
   {
    "pos": 8,
@@ -171,19 +171,50 @@
  ],
  "emJogo": [
   {
-   "mesa": 1,
-   "a": "Leandrinho",
-   "b": "Wander",
-   "rodada": 2
-  },
-  {
    "mesa": 2,
    "a": "Marcelino",
    "b": "Henrique G.",
    "rodada": 2
+  },
+  {
+   "mesa": 3,
+   "a": "Pedro M.",
+   "b": "Renatinho",
+   "rodada": 2
+  },
+  {
+   "mesa": 5,
+   "a": "Isac",
+   "b": "Mateus M.",
+   "rodada": 3
   }
  ],
  "resultados": [
+  {
+   "rodada": 2,
+   "a": "Leandrinho",
+   "b": "Wander",
+   "setsA": 3,
+   "setsB": 0,
+   "parciais": [
+    [
+     11,
+     8
+    ],
+    [
+     11,
+     9
+    ],
+    [
+     11,
+     7
+    ]
+   ],
+   "vencedor": "A",
+   "wo": false,
+   "fim": "2026-11-02T18:41:43.541Z",
+   "melhorDe": 5
+  },
   {
    "rodada": 2,
    "a": "Joel D.",
@@ -501,6 +532,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T18:38:41.274Z",
- "conferidoEm": "2026-11-02T18:38:41.274Z"
+ "atualizadoEm": "2026-11-02T18:43:47.100Z",
+ "conferidoEm": "2026-11-02T18:43:47.100Z"
 }
