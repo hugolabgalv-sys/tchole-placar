@@ -171,6 +171,12 @@
  ],
  "emJogo": [
   {
+   "mesa": 1,
+   "a": "Leandrinho",
+   "b": "Wander",
+   "rodada": 2
+  },
+  {
    "mesa": 2,
    "a": "Carenato",
    "b": "Dani Boy",
@@ -401,6 +407,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T18:28:30.733Z",
- "conferidoEm": "2026-11-02T18:28:30.733Z"
+ "atualizadoEm": "2026-11-02T18:33:36.072Z",
+ "conferidoEm": "2026-11-02T18:33:36.072Z"
 }
