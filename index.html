@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Placar dos rachões · Tcholé</title>
+<style>
+@font-face{font-family:'Barlow Condensed';font-weight:700;font-display:swap;src:url(fonts/BarlowCondensed-700-latin.woff2) format('woff2')}
+@font-face{font-family:'Barlow Condensed';font-weight:700;font-display:swap;src:url(fonts/BarlowCondensed-700-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+1E00-1EFF}
+@font-face{font-family:'Barlow';font-weight:500;font-display:swap;src:url(fonts/Barlow-500-latin.woff2) format('woff2')}
+@font-face{font-family:'Barlow';font-weight:700;font-display:swap;src:url(fonts/Barlow-700-latin.woff2) format('woff2')}
+:root{--fundo:#F4F3EE;--sup:#FFFFFF;--tinta:#1B1F24;--suave:#5B6470;--linha:#E6E2D8;--acento:#F97316;--acento-tinta:#B4430F;--acento-fundo:#FFF4E5;--vivo:#166534;--vivo-fundo:#DCFCE7;--aviso:#92400E;--aviso-fundo:#FEF3C7}
+@media (prefers-color-scheme:dark){:root{--fundo:#0B1220;--sup:#0F182B;--tinta:#F1F5F9;--suave:#94A3B8;--linha:#233048;--acento-tinta:#FDBA74;--acento-fundo:#2A1A0E;--vivo:#86EFAC;--vivo-fundo:#0E2A1A;--aviso:#FCD34D;--aviso-fundo:#2B2110}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fundo);color:var(--tinta);font:500 16px/1.4 Barlow,system-ui,sans-serif;-webkit-text-size-adjust:100%}
+main{max-width:640px;margin:0 auto;padding:16px 16px 40px}
+h1,h2,.num{font-family:'Barlow Condensed',Barlow,system-ui,sans-serif;font-weight:700}
+.marca{display:flex;align-items:center;gap:8px;color:var(--acento);font:700 18px 'Barlow Condensed',sans-serif;letter-spacing:.06em}
+.marca i{width:12px;height:12px;border-radius:50%;background:var(--acento);display:inline-block}
+h1{font-size:30px;line-height:1.05;margin:8px 0 2px}
+.sub{color:var(--suave);font-size:15px}
+.status{margin:12px 0 4px;padding:8px 12px;border-radius:10px;background:var(--vivo-fundo);color:var(--vivo);font-weight:700;font-size:15px}
+.status.fim{background:var(--acento-fundo);color:var(--acento-tinta)}
+.atraso{display:none;margin:8px 0;padding:8px 12px;border-radius:10px;background:var(--aviso-fundo);color:var(--aviso);font-size:14px}
+h2{font-size:22px;margin:24px 0 8px;letter-spacing:.02em}
+h2 small{font:500 14px Barlow,sans-serif;color:var(--suave);letter-spacing:0}
+.cartao{background:var(--sup);border:1px solid var(--linha);border-radius:12px;overflow:hidden}
+table{width:100%;border-collapse:collapse}
+th{font:700 12px Barlow,sans-serif;color:var(--suave);text-align:center;padding:8px 4px;letter-spacing:.04em}
+td{padding:8px 4px;text-align:center;border-top:1px solid var(--linha);font-variant-numeric:tabular-nums}
+td.nome,th.nome{text-align:left}
+td.nome{font-weight:700;max-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;width:44%}
+td.pos{width:36px}
+.bola{display:inline-flex;width:26px;height:26px;border-radius:50%;align-items:center;justify-content:center;font:700 15px 'Barlow Condensed',sans-serif;background:var(--fundo)}
+tr.podio .bola{background:var(--acento);color:#1B1F24}
+tr.podio td.nome{color:var(--acento-tinta)}
+td.pts{font-weight:700}
+.podio-top{display:flex;gap:8px;margin:12px 0 0}
+.podio-top div{flex:1;background:var(--sup);border:1px solid var(--linha);border-radius:12px;padding:10px;text-align:center}
+.podio-top b{display:block;font:700 26px 'Barlow Condensed',sans-serif;color:var(--acento)}
+.podio-top span{font-weight:700;font-size:15px;overflow-wrap:anywhere}
+.jogo{display:flex;align-items:center;gap:10px;padding:10px 12px;border-top:1px solid var(--linha)}
+.jogo:first-child{border-top:0}
+.jogo .mesa{font:700 13px Barlow,sans-serif;color:var(--vivo);background:var(--vivo-fundo);border-radius:8px;padding:3px 8px;white-space:nowrap}
+.jogo .lados{flex:1;min-width:0}
+.lado{display:flex;justify-content:space-between;gap:8px}
+.lado span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lado b{font:700 20px 'Barlow Condensed',sans-serif;min-width:16px;text-align:right}
+.lado.venceu{font-weight:700}
+.lado.perdeu{color:var(--suave)}
+.parciais{color:var(--suave);font-size:13px;margin-top:2px}
+.rod{font-size:12px;color:var(--suave);white-space:nowrap;align-self:flex-start}
+.vazio{padding:14px 12px;color:var(--suave)}
+ul.anteriores{list-style:none;margin:0;padding:0}
+ul.anteriores li{border-top:1px solid var(--linha)}
+ul.anteriores li:first-child{border-top:0}
+ul.anteriores a{display:block;padding:12px;color:inherit;text-decoration:none}
+ul.anteriores a b{display:block}
+ul.anteriores a span{color:var(--suave);font-size:14px}
+a.voltar{display:inline-block;margin-top:24px;color:var(--acento-tinta);font-weight:700}
+footer{margin-top:32px;color:var(--suave);font-size:13px;text-align:center}
+</style>
+</head>
+<body>
+<main>
+<div class="marca"><i></i>TCHOLÉ · PLACAR</div>
+<h1>Placar dos rachões</h1>
+<div class="cartao" style="margin-top:16px"><div class="vazio">Nenhum rachão publicado ainda. No dia do rachão, o placar aparece aqui e atualiza a cada 5 minutos.</div></div>
+<footer>Placar feito com o Tcholé</footer>
+</main>
+
+</body>
+</html>
