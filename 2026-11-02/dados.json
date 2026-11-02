@@ -6,7 +6,7 @@
  "data": "2026-11-02",
  "finalizado": false,
  "total": 40,
- "jogados": 37,
+ "jogados": 38,
  "classificacao": [
   {
    "pos": 1,
@@ -40,6 +40,16 @@
   },
   {
    "pos": 4,
+   "nome": "Wander",
+   "j": 5,
+   "v": 4,
+   "d": 1,
+   "setsPro": 12,
+   "setsContra": 4,
+   "pontos": 9
+  },
+  {
+   "pos": 5,
    "nome": "Thiago M.",
    "j": 5,
    "v": 3,
@@ -49,7 +59,7 @@
    "pontos": 8
   },
   {
-   "pos": 5,
+   "pos": 6,
    "nome": "Isac",
    "j": 5,
    "v": 4,
@@ -57,16 +67,6 @@
    "setsPro": 12,
    "setsContra": 5,
    "pontos": 8
-  },
-  {
-   "pos": 6,
-   "nome": "Wander",
-   "j": 4,
-   "v": 3,
-   "d": 1,
-   "setsPro": 9,
-   "setsContra": 4,
-   "pontos": 7
   },
   {
    "pos": 7,
@@ -101,12 +101,12 @@
   {
    "pos": 10,
    "nome": "Pedro M.",
-   "j": 4,
+   "j": 5,
    "v": 2,
-   "d": 2,
+   "d": 3,
    "setsPro": 7,
-   "setsContra": 8,
-   "pontos": 6
+   "setsContra": 11,
+   "pontos": 7
   },
   {
    "pos": 11,
@@ -169,15 +169,33 @@
    "pontos": 5
   }
  ],
- "emJogo": [
+ "emJogo": [],
+ "resultados": [
   {
-   "mesa": 1,
+   "rodada": 5,
    "a": "Wander",
    "b": "Pedro M.",
-   "rodada": 5
-  }
- ],
- "resultados": [
+   "setsA": 3,
+   "setsB": 0,
+   "parciais": [
+    [
+     11,
+     2
+    ],
+    [
+     13,
+     11
+    ],
+    [
+     11,
+     8
+    ]
+   ],
+   "vencedor": "A",
+   "wo": false,
+   "fim": "2026-11-02T20:43:02.318Z",
+   "melhorDe": 5
+  },
   {
    "rodada": 5,
    "a": "Henrique G.",
@@ -1171,6 +1189,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T20:40:32.227Z",
- "conferidoEm": "2026-11-02T20:40:32.227Z"
+ "atualizadoEm": "2026-11-02T20:45:39.442Z",
+ "conferidoEm": "2026-11-02T20:45:39.442Z"
 }
