@@ -6,7 +6,7 @@
  "data": "2026-11-02",
  "finalizado": false,
  "total": 40,
- "jogados": 27,
+ "jogados": 29,
  "classificacao": [
   {
    "pos": 1,
@@ -20,6 +20,16 @@
   },
   {
    "pos": 2,
+   "nome": "Joel D.",
+   "j": 4,
+   "v": 4,
+   "d": 0,
+   "setsPro": 12,
+   "setsContra": 0,
+   "pontos": 8
+  },
+  {
+   "pos": 3,
    "nome": "Isac",
    "j": 4,
    "v": 4,
@@ -29,17 +39,27 @@
    "pontos": 8
   },
   {
-   "pos": 3,
-   "nome": "Joel D.",
-   "j": 3,
+   "pos": 4,
+   "nome": "Leandrinho",
+   "j": 4,
    "v": 3,
-   "d": 0,
-   "setsPro": 9,
-   "setsContra": 0,
+   "d": 1,
+   "setsPro": 10,
+   "setsContra": 3,
+   "pontos": 7
+  },
+  {
+   "pos": 5,
+   "nome": "Pedro M.",
+   "j": 4,
+   "v": 2,
+   "d": 2,
+   "setsPro": 7,
+   "setsContra": 8,
    "pontos": 6
   },
   {
-   "pos": 4,
+   "pos": 6,
    "nome": "Thiago M.",
    "j": 3,
    "v": 2,
@@ -49,17 +69,7 @@
    "pontos": 5
   },
   {
-   "pos": 5,
-   "nome": "Leandrinho",
-   "j": 3,
-   "v": 2,
-   "d": 1,
-   "setsPro": 7,
-   "setsContra": 3,
-   "pontos": 5
-  },
-  {
-   "pos": 6,
+   "pos": 7,
    "nome": "Wander",
    "j": 3,
    "v": 2,
@@ -69,23 +79,13 @@
    "pontos": 5
   },
   {
-   "pos": 7,
+   "pos": 8,
    "nome": "Igor",
    "j": 3,
    "v": 2,
    "d": 1,
    "setsPro": 8,
    "setsContra": 4,
-   "pontos": 5
-  },
-  {
-   "pos": 8,
-   "nome": "Pedro M.",
-   "j": 3,
-   "v": 2,
-   "d": 1,
-   "setsPro": 7,
-   "setsContra": 5,
    "pontos": 5
   },
   {
@@ -101,12 +101,12 @@
   {
    "pos": 10,
    "nome": "Mateus M.",
-   "j": 3,
+   "j": 4,
    "v": 1,
-   "d": 2,
+   "d": 3,
    "setsPro": 6,
-   "setsContra": 7,
-   "pontos": 4
+   "setsContra": 10,
+   "pontos": 5
   },
   {
    "pos": 11,
@@ -171,15 +171,9 @@
  ],
  "emJogo": [
   {
-   "mesa": 1,
-   "a": "Joel D.",
-   "b": "Mateus M.",
-   "rodada": 4
-  },
-  {
    "mesa": 2,
-   "a": "Leandrinho",
-   "b": "Pedro M.",
+   "a": "Jaime",
+   "b": "Henrique G.",
    "rodada": 4
   },
   {
@@ -190,6 +184,56 @@
   }
  ],
  "resultados": [
+  {
+   "rodada": 4,
+   "a": "Joel D.",
+   "b": "Mateus M.",
+   "setsA": 3,
+   "setsB": 0,
+   "parciais": [
+    [
+     11,
+     3
+    ],
+    [
+     11,
+     4
+    ],
+    [
+     11,
+     4
+    ]
+   ],
+   "vencedor": "A",
+   "wo": false,
+   "fim": "2026-11-02T20:09:21.917Z",
+   "melhorDe": 5
+  },
+  {
+   "rodada": 4,
+   "a": "Leandrinho",
+   "b": "Pedro M.",
+   "setsA": 3,
+   "setsB": 0,
+   "parciais": [
+    [
+     11,
+     7
+    ],
+    [
+     11,
+     2
+    ],
+    [
+     11,
+     1
+    ]
+   ],
+   "vencedor": "A",
+   "wo": false,
+   "fim": "2026-11-02T20:05:20.545Z",
+   "melhorDe": 5
+  },
   {
    "rodada": 4,
    "a": "Carenato",
@@ -930,6 +974,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T20:04:58.274Z",
- "conferidoEm": "2026-11-02T20:04:58.274Z"
+ "atualizadoEm": "2026-11-02T20:10:03.436Z",
+ "conferidoEm": "2026-11-02T20:10:03.436Z"
 }
