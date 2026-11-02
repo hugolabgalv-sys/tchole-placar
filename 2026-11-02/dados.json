@@ -6,7 +6,7 @@
  "data": "2026-11-02",
  "finalizado": false,
  "total": 40,
- "jogados": 29,
+ "jogados": 31,
  "classificacao": [
   {
    "pos": 1,
@@ -50,6 +50,26 @@
   },
   {
    "pos": 5,
+   "nome": "Wander",
+   "j": 4,
+   "v": 3,
+   "d": 1,
+   "setsPro": 9,
+   "setsContra": 4,
+   "pontos": 7
+  },
+  {
+   "pos": 6,
+   "nome": "Igor",
+   "j": 4,
+   "v": 3,
+   "d": 1,
+   "setsPro": 11,
+   "setsContra": 5,
+   "pontos": 7
+  },
+  {
+   "pos": 7,
    "nome": "Pedro M.",
    "j": 4,
    "v": 2,
@@ -59,34 +79,14 @@
    "pontos": 6
   },
   {
-   "pos": 6,
-   "nome": "Thiago M.",
-   "j": 3,
-   "v": 2,
-   "d": 1,
-   "setsPro": 8,
-   "setsContra": 3,
-   "pontos": 5
-  },
-  {
-   "pos": 7,
-   "nome": "Wander",
-   "j": 3,
-   "v": 2,
-   "d": 1,
-   "setsPro": 6,
-   "setsContra": 3,
-   "pontos": 5
-  },
-  {
    "pos": 8,
-   "nome": "Igor",
-   "j": 3,
+   "nome": "Thiago M.",
+   "j": 4,
    "v": 2,
-   "d": 1,
-   "setsPro": 8,
-   "setsContra": 4,
-   "pontos": 5
+   "d": 2,
+   "setsPro": 9,
+   "setsContra": 6,
+   "pontos": 6
   },
   {
    "pos": 9,
@@ -111,12 +111,12 @@
   {
    "pos": 11,
    "nome": "Dani Boy",
-   "j": 3,
+   "j": 4,
    "v": 1,
-   "d": 2,
-   "setsPro": 3,
-   "setsContra": 6,
-   "pontos": 4
+   "d": 3,
+   "setsPro": 4,
+   "setsContra": 9,
+   "pontos": 5
   },
   {
    "pos": 12,
@@ -183,13 +183,71 @@
    "rodada": 4
   },
   {
-   "mesa": 4,
-   "a": "Thiago M.",
-   "b": "Wander",
+   "mesa": 5,
+   "a": "Marcelino",
+   "b": "Davi N.",
    "rodada": 4
   }
  ],
  "resultados": [
+  {
+   "rodada": 4,
+   "a": "Thiago M.",
+   "b": "Wander",
+   "setsA": 1,
+   "setsB": 3,
+   "parciais": [
+    [
+     9,
+     11
+    ],
+    [
+     11,
+     8
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     13,
+     15
+    ]
+   ],
+   "vencedor": "B",
+   "wo": false,
+   "fim": "2026-11-02T20:17:15.826Z",
+   "melhorDe": 5
+  },
+  {
+   "rodada": 4,
+   "a": "Igor",
+   "b": "Dani Boy",
+   "setsA": 3,
+   "setsB": 1,
+   "parciais": [
+    [
+     11,
+     9
+    ],
+    [
+     4,
+     11
+    ],
+    [
+     11,
+     8
+    ],
+    [
+     11,
+     8
+    ]
+   ],
+   "vencedor": "A",
+   "wo": false,
+   "fim": "2026-11-02T20:15:27.208Z",
+   "melhorDe": 5
+  },
   {
    "rodada": 4,
    "a": "Joel D.",
@@ -980,6 +1038,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T20:15:08.399Z",
- "conferidoEm": "2026-11-02T20:15:08.399Z"
+ "atualizadoEm": "2026-11-02T20:20:13.405Z",
+ "conferidoEm": "2026-11-02T20:20:13.405Z"
 }
