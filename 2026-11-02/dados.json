@@ -6,26 +6,26 @@
  "data": "2026-11-02",
  "finalizado": false,
  "total": 40,
- "jogados": 22,
+ "jogados": 25,
  "classificacao": [
   {
    "pos": 1,
+   "nome": "Carenato",
+   "j": 4,
+   "v": 4,
+   "d": 0,
+   "setsPro": 12,
+   "setsContra": 2,
+   "pontos": 8
+  },
+  {
+   "pos": 2,
    "nome": "Joel D.",
    "j": 3,
    "v": 3,
    "d": 0,
    "setsPro": 9,
    "setsContra": 0,
-   "pontos": 6
-  },
-  {
-   "pos": 2,
-   "nome": "Carenato",
-   "j": 3,
-   "v": 3,
-   "d": 0,
-   "setsPro": 9,
-   "setsContra": 2,
    "pontos": 6
   },
   {
@@ -60,6 +60,16 @@
   },
   {
    "pos": 6,
+   "nome": "Wander",
+   "j": 3,
+   "v": 2,
+   "d": 1,
+   "setsPro": 6,
+   "setsContra": 3,
+   "pontos": 5
+  },
+  {
+   "pos": 7,
    "nome": "Igor",
    "j": 3,
    "v": 2,
@@ -69,7 +79,7 @@
    "pontos": 5
   },
   {
-   "pos": 7,
+   "pos": 8,
    "nome": "Pedro M.",
    "j": 3,
    "v": 2,
@@ -79,7 +89,27 @@
    "pontos": 5
   },
   {
-   "pos": 8,
+   "pos": 9,
+   "nome": "Davi N.",
+   "j": 3,
+   "v": 2,
+   "d": 1,
+   "setsPro": 6,
+   "setsContra": 6,
+   "pontos": 5
+  },
+  {
+   "pos": 10,
+   "nome": "Mateus M.",
+   "j": 3,
+   "v": 1,
+   "d": 2,
+   "setsPro": 6,
+   "setsContra": 7,
+   "pontos": 4
+  },
+  {
+   "pos": 11,
    "nome": "Dani Boy",
    "j": 3,
    "v": 1,
@@ -89,7 +119,7 @@
    "pontos": 4
   },
   {
-   "pos": 9,
+   "pos": 12,
    "nome": "Marcelino",
    "j": 3,
    "v": 1,
@@ -99,37 +129,17 @@
    "pontos": 4
   },
   {
-   "pos": 10,
-   "nome": "Wander",
-   "j": 2,
-   "v": 1,
-   "d": 1,
-   "setsPro": 3,
-   "setsContra": 3,
-   "pontos": 3
-  },
-  {
-   "pos": 11,
-   "nome": "Mateus M.",
-   "j": 2,
-   "v": 1,
-   "d": 1,
-   "setsPro": 4,
-   "setsContra": 4,
-   "pontos": 3
-  },
-  {
-   "pos": 12,
-   "nome": "Davi N.",
-   "j": 2,
-   "v": 1,
-   "d": 1,
-   "setsPro": 3,
-   "setsContra": 4,
-   "pontos": 3
-  },
-  {
    "pos": 13,
+   "nome": "Jaime",
+   "j": 4,
+   "v": 0,
+   "d": 4,
+   "setsPro": 1,
+   "setsContra": 12,
+   "pontos": 4
+  },
+  {
+   "pos": 14,
    "nome": "Mateus Sette",
    "j": 3,
    "v": 0,
@@ -139,17 +149,17 @@
    "pontos": 3
   },
   {
-   "pos": 14,
-   "nome": "Jaime",
+   "pos": 15,
+   "nome": "Henrique G.",
    "j": 3,
    "v": 0,
    "d": 3,
-   "setsPro": 1,
+   "setsPro": 2,
    "setsContra": 9,
    "pontos": 3
   },
   {
-   "pos": 15,
+   "pos": 16,
    "nome": "Renatinho",
    "j": 3,
    "v": 0,
@@ -157,16 +167,6 @@
    "setsPro": 0,
    "setsContra": 9,
    "pontos": 3
-  },
-  {
-   "pos": 16,
-   "nome": "Henrique G.",
-   "j": 2,
-   "v": 0,
-   "d": 2,
-   "setsPro": 2,
-   "setsContra": 6,
-   "pontos": 2
   }
  ],
  "emJogo": [
@@ -175,27 +175,92 @@
    "a": "Isac",
    "b": "Mateus Sette",
    "rodada": 4
-  },
-  {
-   "mesa": 2,
-   "a": "Henrique G.",
-   "b": "Wander",
-   "rodada": 3
-  },
-  {
-   "mesa": 4,
-   "a": "Mateus M.",
-   "b": "Davi N.",
-   "rodada": 2
-  },
-  {
-   "mesa": 5,
-   "a": "Jaime",
-   "b": "Carenato",
-   "rodada": 5
   }
  ],
  "resultados": [
+  {
+   "rodada": 2,
+   "a": "Mateus M.",
+   "b": "Davi N.",
+   "setsA": 2,
+   "setsB": 3,
+   "parciais": [
+    [
+     8,
+     11
+    ],
+    [
+     12,
+     10
+    ],
+    [
+     11,
+     1
+    ],
+    [
+     8,
+     11
+    ],
+    [
+     7,
+     11
+    ]
+   ],
+   "vencedor": "B",
+   "wo": false,
+   "fim": "2026-11-02T19:44:33.058Z",
+   "melhorDe": 5
+  },
+  {
+   "rodada": 3,
+   "a": "Henrique G.",
+   "b": "Wander",
+   "setsA": 0,
+   "setsB": 3,
+   "parciais": [
+    [
+     6,
+     11
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     8,
+     11
+    ]
+   ],
+   "vencedor": "B",
+   "wo": false,
+   "fim": "2026-11-02T19:44:20.057Z",
+   "melhorDe": 5
+  },
+  {
+   "rodada": 5,
+   "a": "Jaime",
+   "b": "Carenato",
+   "setsA": 0,
+   "setsB": 3,
+   "parciais": [
+    [
+     5,
+     11
+    ],
+    [
+     2,
+     11
+    ],
+    [
+     5,
+     11
+    ]
+   ],
+   "vencedor": "B",
+   "wo": false,
+   "fim": "2026-11-02T19:43:28.271Z",
+   "melhorDe": 5
+  },
   {
    "rodada": 3,
    "a": "Dani Boy",
@@ -795,6 +860,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T19:34:34.301Z",
- "conferidoEm": "2026-11-02T19:34:34.301Z"
+ "atualizadoEm": "2026-11-02T19:44:39.737Z",
+ "conferidoEm": "2026-11-02T19:44:39.737Z"
 }
