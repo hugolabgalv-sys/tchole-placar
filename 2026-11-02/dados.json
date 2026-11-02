@@ -175,6 +175,12 @@
    "a": "Isac",
    "b": "Mateus Sette",
    "rodada": 4
+  },
+  {
+   "mesa": 5,
+   "a": "Carenato",
+   "b": "Renatinho",
+   "rodada": 4
   }
  ],
  "resultados": [
@@ -860,6 +866,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T19:44:39.737Z",
- "conferidoEm": "2026-11-02T19:44:39.737Z"
+ "atualizadoEm": "2026-11-02T19:49:44.554Z",
+ "conferidoEm": "2026-11-02T19:49:44.554Z"
 }
