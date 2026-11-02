@@ -6,7 +6,7 @@
  "data": "2026-11-02",
  "finalizado": false,
  "total": 40,
- "jogados": 20,
+ "jogados": 21,
  "classificacao": [
   {
    "pos": 1,
@@ -40,6 +40,16 @@
   },
   {
    "pos": 4,
+   "nome": "Thiago M.",
+   "j": 3,
+   "v": 2,
+   "d": 1,
+   "setsPro": 8,
+   "setsContra": 3,
+   "pontos": 5
+  },
+  {
+   "pos": 5,
    "nome": "Leandrinho",
    "j": 3,
    "v": 2,
@@ -49,7 +59,7 @@
    "pontos": 5
   },
   {
-   "pos": 5,
+   "pos": 6,
    "nome": "Igor",
    "j": 3,
    "v": 2,
@@ -59,17 +69,17 @@
    "pontos": 5
   },
   {
-   "pos": 6,
-   "nome": "Thiago M.",
-   "j": 2,
+   "pos": 7,
+   "nome": "Pedro M.",
+   "j": 3,
    "v": 2,
-   "d": 0,
-   "setsPro": 6,
-   "setsContra": 0,
-   "pontos": 4
+   "d": 1,
+   "setsPro": 7,
+   "setsContra": 5,
+   "pontos": 5
   },
   {
-   "pos": 7,
+   "pos": 8,
    "nome": "Marcelino",
    "j": 3,
    "v": 1,
@@ -77,16 +87,6 @@
    "setsPro": 3,
    "setsContra": 8,
    "pontos": 4
-  },
-  {
-   "pos": 8,
-   "nome": "Pedro M.",
-   "j": 2,
-   "v": 1,
-   "d": 1,
-   "setsPro": 4,
-   "setsContra": 3,
-   "pontos": 3
   },
   {
    "pos": 9,
@@ -171,6 +171,12 @@
  ],
  "emJogo": [
   {
+   "mesa": 1,
+   "a": "Isac",
+   "b": "Mateus Sette",
+   "rodada": 4
+  },
+  {
    "mesa": 2,
    "a": "Dani Boy",
    "b": "Renatinho",
@@ -184,6 +190,39 @@
   }
  ],
  "resultados": [
+  {
+   "rodada": 3,
+   "a": "Thiago M.",
+   "b": "Pedro M.",
+   "setsA": 2,
+   "setsB": 3,
+   "parciais": [
+    [
+     9,
+     11
+    ],
+    [
+     11,
+     6
+    ],
+    [
+     11,
+     8
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     11,
+     13
+    ]
+   ],
+   "vencedor": "B",
+   "wo": false,
+   "fim": "2026-11-02T19:27:54.727Z",
+   "melhorDe": 5
+  },
   {
    "rodada": 3,
    "a": "Igor",
@@ -725,6 +764,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T19:24:23.889Z",
- "conferidoEm": "2026-11-02T19:24:23.889Z"
+ "atualizadoEm": "2026-11-02T19:29:28.489Z",
+ "conferidoEm": "2026-11-02T19:29:28.489Z"
 }
