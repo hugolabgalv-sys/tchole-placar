@@ -4,7 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
-<title>Placar dos rachões · Tcholé</title>
+<meta name="theme-color" content="#0B1220">
+<title>Rachão 02 Nov 2026 · placar</title>
+<script>try{if(!/[?&]v=/.test(location.search)&&!sessionStorage.getItem('tcholeAbertura'))document.documentElement.classList.add('abrindo')}catch(e){}</script>
 <style>
 @font-face{font-family:'Barlow Condensed';font-weight:700;font-display:swap;src:url(fonts/BarlowCondensed-700-latin.woff2) format('woff2')}
 @font-face{font-family:'Barlow Condensed';font-weight:700;font-display:swap;src:url(fonts/BarlowCondensed-700-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA,U+1E00-1EFF}
@@ -17,11 +19,13 @@ body{margin:0;background:var(--fundo);color:var(--tinta);font:500 16px/1.4 Barlo
 main{max-width:640px;margin:0 auto;padding:16px 16px 40px}
 h1,h2,.num{font-family:'Barlow Condensed',Barlow,system-ui,sans-serif;font-weight:700}
 .marca{display:flex;align-items:center;gap:8px;color:var(--acento);font:700 18px 'Barlow Condensed',sans-serif;letter-spacing:.06em}
-.marca i{width:12px;height:12px;border-radius:50%;background:var(--acento);display:inline-block}
+.marca svg{height:22px;width:auto;color:var(--tinta)}
+.marca b{font-style:italic;color:var(--tinta);letter-spacing:.02em}
 h1{font-size:30px;line-height:1.05;margin:8px 0 2px}
 .sub{color:var(--suave);font-size:15px}
 .status{margin:12px 0 4px;padding:8px 12px;border-radius:10px;background:var(--vivo-fundo);color:var(--vivo);font-weight:700;font-size:15px}
 .status.fim{background:var(--acento-fundo);color:var(--acento-tinta)}
+.status small{display:block;margin-top:1px;font-weight:500;font-size:13px;opacity:.85}
 .atraso{display:none;margin:8px 0;padding:8px 12px;border-radius:10px;background:var(--aviso-fundo);color:var(--aviso);font-size:14px}
 h2{font-size:22px;margin:24px 0 8px;letter-spacing:.02em}
 h2 small{font:500 14px Barlow,sans-serif;color:var(--suave);letter-spacing:0}
@@ -51,6 +55,19 @@ td.pts{font-weight:700}
 .lado.perdeu{color:var(--suave)}
 .parciais{color:var(--suave);font-size:13px;margin-top:2px}
 .rod{font-size:12px;color:var(--suave);white-space:nowrap;align-self:flex-start}
+/* números encostados à direita e estreitos: o nome fica com o resto (cabe "Leandrinho" num celular de 360 px) */
+.grade{display:grid;grid-template-columns:minmax(0,1fr) 26px repeat(var(--n),21px);column-gap:3px;align-items:center;padding:0 8px 0 12px}
+.grade.cab{padding-top:8px;padding-bottom:6px;font:700 10px Barlow,sans-serif;letter-spacing:.02em;color:var(--suave)}
+.grade.cab span{text-align:center}.grade.cab span:first-child{text-align:left}
+.res{border-top:1px solid var(--linha);padding:6px 0 8px}
+.res .info{padding:0 12px 2px;font-size:12px;color:var(--suave)}
+.res .grade{min-height:28px}
+.res .nome{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:15px}
+.res .tot{font:700 19px 'Barlow Condensed',sans-serif;text-align:center}
+.res .set{text-align:center;font-size:13px;font-variant-numeric:tabular-nums;color:var(--suave)}
+.res .set.ganhou{color:var(--tinta);font-weight:700}
+.res .venceu .nome{font-weight:700}
+.res .perdeu .nome,.res .perdeu .tot{color:var(--suave)}
 .vazio{padding:14px 12px;color:var(--suave)}
 ul.anteriores{list-style:none;margin:0;padding:0}
 ul.anteriores li{border-top:1px solid var(--linha)}
@@ -60,15 +77,63 @@ ul.anteriores a b{display:block}
 ul.anteriores a span{color:var(--suave);font-size:14px}
 a.voltar{display:inline-block;margin-top:24px;color:var(--acento-tinta);font-weight:700}
 footer{margin-top:32px;color:var(--suave);font-size:13px;text-align:center}
+
+@font-face{font-family:'Barlow Condensed';font-weight:600;font-display:swap;src:url(fonts/BarlowCondensed-600-latin.woff2) format('woff2')}
+#abertura{display:none}
+.abrindo body{overflow:hidden}
+.abrindo #abertura{display:flex;position:fixed;inset:0;z-index:50;flex-direction:column;align-items:center;overflow:hidden;background:#0B1220;color:#F4F3EE;cursor:pointer;transition:opacity .5s ease}
+#abertura.sai{opacity:0}
+#abertura .malha{position:absolute;inset:-30%;background:radial-gradient(52% 46% at 26% 16%,rgba(249,115,22,.22),transparent 66%),radial-gradient(46% 46% at 86% 88%,rgba(59,130,246,.2),transparent 70%);animation:ab-deriva 12s ease-in-out infinite alternate}
+#abertura .grito{position:relative;margin-top:max(13vh,72px);text-align:center;font-family:'Barlow Condensed',sans-serif;font-style:italic;line-height:.95;animation:ab-sobe .6s cubic-bezier(.22,1,.36,1) both}
+#abertura .grito span{display:block;font-weight:600;font-size:clamp(30px,9vw,56px);color:rgba(244,243,238,.9)}
+#abertura .grito b{display:block;font-weight:700;font-size:clamp(68px,22vw,140px);padding-right:.08em;background:linear-gradient(90deg,#FDBA74,#F97316,#FB923C);-webkit-background-clip:text;background-clip:text;color:transparent;animation:ab-grito .7s cubic-bezier(.22,1,.36,1) .15s both}
+#abertura h2{position:relative;margin:.6em 0 0;font:600 clamp(11px,3.2vw,16px) 'Barlow Condensed',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:rgba(244,243,238,.85);text-align:center;padding:0 16px;animation:ab-sobe .6s cubic-bezier(.22,1,.36,1) .12s both}
+#abertura .cometa{position:relative;width:min(78vw,420px);height:16px;margin-top:10px;animation:ab-cometa .9s cubic-bezier(.22,1,.36,1) .2s both}
+#abertura .cometa i{position:absolute;left:0;right:12px;top:5px;height:6px;background:linear-gradient(90deg,rgba(249,115,22,0),rgba(249,115,22,.3) 45%,#FDBA74);clip-path:polygon(0 50%,100% 0,100% 100%)}
+#abertura .cometa b{position:absolute;right:2px;top:3px;width:10px;height:10px;border-radius:50%;background:#F97316;box-shadow:0 0 10px 2px rgba(249,115,22,.55)}
+/* sem transform no contêiner: transform isola a mistura "screen" e o fundo preto das fotos apareceria */
+#abertura .palco{position:absolute;inset:auto 0 0 0;display:flex;justify-content:center;height:min(56vh,640px)}
+#abertura .atletas{position:relative;height:100%;left:calc(min(56vh,640px) * -0.127)}
+#abertura .atletas img{height:100%;width:auto;max-width:none;mix-blend-mode:screen;animation:ab-sobe .7s cubic-bezier(.22,1,.36,1) .25s both}
+#abertura .atletas .ele{-webkit-mask-image:linear-gradient(93deg,#000 64%,transparent 67%);mask-image:linear-gradient(93deg,#000 64%,transparent 67%)}
+#abertura .atletas .ela{position:absolute;bottom:0;left:55%;height:94.3%}
+#abertura .base{position:absolute;inset:auto 0 0 0;height:34%;background:linear-gradient(to top,#0B1220 30%,rgba(11,18,32,0))}
+#abertura .carregando{position:absolute;bottom:max(6vh,36px);left:0;right:0;text-align:center;font:600 15px Barlow,sans-serif;letter-spacing:.06em;color:#FDBA74}
+#abertura .carregando i{display:inline-block;width:5px;height:5px;margin-left:4px;border-radius:50%;background:#F97316;animation:ab-ponto 1s ease-in-out infinite}
+#abertura .carregando i:nth-child(2){animation-delay:.15s}#abertura .carregando i:nth-child(3){animation-delay:.3s}
+#abertura .carregando small{display:block;margin-top:6px;font:500 12px Barlow,sans-serif;letter-spacing:0;color:rgba(244,243,238,.45)}
+@keyframes ab-deriva{to{transform:translate(4%,-3%)}}
+@keyframes ab-sobe{from{opacity:0;transform:translateY(12px)}}
+@keyframes ab-grito{from{opacity:0;transform:translateX(-14px) skewX(-4deg)}}
+@keyframes ab-cometa{from{opacity:0;transform:translateX(-40px)}}
+@keyframes ab-ponto{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){#abertura *{animation:none!important}}
 </style>
 </head>
 <body>
+<div id="abertura" role="presentation" aria-hidden="true">
+<div class="malha"></div>
+<div class="palco"><div class="atletas"><img class="ele" src="img/atleta-homem.webp" alt=""><img class="ela" src="img/atleta-mulher.webp" alt=""></div></div>
+<div class="base"></div>
+<p class="grito"><span>Todo ponto merece um</span><b>Tcholé!</b></p>
+<h2>Gestão de competições de tênis de mesa</h2>
+<div class="cometa"><i></i><b></b></div>
+<p class="carregando">Carregando placar online<i></i><i></i><i></i><small>toque para pular</small></p>
+</div>
+<script>(function(){var r=document.documentElement;if(!r.classList.contains('abrindo'))return;var a=document.getElementById('abertura'),f=0;function sai(){if(f)return;f=1;try{sessionStorage.setItem('tcholeAbertura','1')}catch(e){}a.classList.add('sai');setTimeout(function(){r.classList.remove('abrindo')},500)}a.addEventListener('click',sai);function arma(){setTimeout(sai,5500)}if(document.readyState==='complete')arma();else addEventListener('load',arma);setTimeout(sai,9000)})();</script>
 <main>
-<div class="marca"><i></i>TCHOLÉ · PLACAR</div>
-<h1>Placar dos rachões</h1>
-<div class="cartao" style="margin-top:16px"><div class="vazio">Nenhum rachão publicado ainda. No dia do rachão, o placar aparece aqui e atualiza a cada 5 minutos.</div></div>
+<div class="marca"><svg viewBox="0 0 200 152" aria-hidden="true"><path d="M188 6 C120 0 30 20 6 72 C-8 104 30 152 80 150 C130 148 175 120 198 90 C160 112 110 128 80 118 C50 108 50 72 80 48 C110 26 150 14 188 6 Z" fill="currentColor"/><circle cx="167" cy="52" r="31" fill="#F97316"/></svg><b>TCHOLÉ</b> · PLACAR ON-LINE</div>
+<h1>Rachão 02 Nov 2026</h1>
+<div class="sub">TM Minas · 02/11/2026</div>
+<div class="status">Ao vivo · 0 de 40 jogos encerrados<small>Atualiza a cada 5 min. Última às 14h57.</small></div><div class="atraso" id="atraso">Sem atualização desde 14:57: o placar pode estar atrasado.</div>
+
+<h2>Classificação <small>· os 3 primeiros vencem</small></h2>
+<div class="cartao"><table><thead><tr><th>#</th><th class="nome">ATLETA</th><th>J</th><th>V</th><th>D</th><th>SETS</th><th>PTS</th></tr></thead><tbody><tr><td class="pos"><span class="bola">1</span></td><td class="nome">Igor</td><td>0</td><td>0</td><td>0</td><td>0–0</td><td class="pts">0</td></tr><tr><td class="pos"><span class="bola">2</span></td><td class="nome">Pedro M.</td><td>0</td><td>0</td><td>0</td><td>0–0</td><td class="pts">0</td></tr><tr><td class="pos"><span class="bola">3</span></td><td class="nome">Mateus M.</td><td>0</td><td>0</td><td>0</td><td>0–0</td><td class="pts">0</td></tr><tr><td class="pos"><span class="bola">4</span></td><td class="nome">Davi N.</td><td>0</td><td>0</td><td>0</td><td>0–0</td><td class="pts">0</td></tr><tr><td class="pos"><span class="bola">5</span></td><td class="nome">Renatinho</td><td>0</td><td>0</td><td>0</td><td>0–0</td><td class="pts">0</td></tr><tr><td class="pos"><span class="bola">6</span></td><td class="nome">Wander</td><td>0</td><td>0</td><td>0</td><td>0–0</td><td class="pts">0</td></tr><tr><td class="pos"><span class="bola">7</span></td><td class="nome">Mateus Sette</td><td>0</td><td>0</td><td>0</td><td>0–0</td><td class="pts">0</td></tr><tr><td class="pos"><span class="bola">8</span></td><td class="nome">Henrique G.</td><td>0</td><td>0</td><td>0</td><td>0–0</td><td class="pts">0</td></tr><tr><td class="pos"><span class="bola">9</span></td><td class="nome">Dani Boy</td><td>0</td><td>0</td><td>0</td><td>0–0</td><td class="pts">0</td></tr><tr><td class="pos"><span class="bola">10</span></td><td class="nome">Jaime</td><td>0</td><td>0</td><td>0</td><td>0–0</td><td class="pts">0</td></tr><tr><td class="pos"><span class="bola">11</span></td><td class="nome">Isac</td><td>0</td><td>0</td><td>0</td><td>0–0</td><td class="pts">0</td></tr><tr><td class="pos"><span class="bola">12</span></td><td class="nome">Thiago M.</td><td>0</td><td>0</td><td>0</td><td>0–0</td><td class="pts">0</td></tr><tr><td class="pos"><span class="bola">13</span></td><td class="nome">Carenato</td><td>0</td><td>0</td><td>0</td><td>0–0</td><td class="pts">0</td></tr><tr><td class="pos"><span class="bola">14</span></td><td class="nome">Marcelino</td><td>0</td><td>0</td><td>0</td><td>0–0</td><td class="pts">0</td></tr><tr><td class="pos"><span class="bola">15</span></td><td class="nome">Joel D.</td><td>0</td><td>0</td><td>0</td><td>0–0</td><td class="pts">0</td></tr><tr><td class="pos"><span class="bola">16</span></td><td class="nome">Leandrinho</td><td>0</td><td>0</td><td>0</td><td>0–0</td><td class="pts">0</td></tr></tbody></table></div>
+<h2>Em jogo agora</h2><div class="cartao"><div class="jogo"><span class="mesa">MESA 1</span><div class="lados"><div class="lado"><span>Igor</span></div><div class="lado"><span>Jaime</span></div></div><span class="rod">rodada 1</span></div><div class="jogo"><span class="mesa">MESA 2</span><div class="lados"><div class="lado"><span>Isac</span></div><div class="lado"><span>Dani Boy</span></div></div><span class="rod">rodada 1</span></div><div class="jogo"><span class="mesa">MESA 3</span><div class="lados"><div class="lado"><span>Thiago M.</span></div><div class="lado"><span>Henrique G.</span></div></div><span class="rod">rodada 1</span></div><div class="jogo"><span class="mesa">MESA 4</span><div class="lados"><div class="lado"><span>Carenato</span></div><div class="lado"><span>Mateus Sette</span></div></div><span class="rod">rodada 1</span></div><div class="jogo"><span class="mesa">MESA 5</span><div class="lados"><div class="lado"><span>Marcelino</span></div><div class="lado"><span>Wander</span></div></div><span class="rod">rodada 1</span></div></div>
+<h2>Resultados</h2><div class="cartao"><div class="vazio">Nenhum jogo encerrado ainda.</div></div>
+
 <footer>Placar feito com o Tcholé</footer>
 </main>
-
+<script>(function(){var c=Date.parse("2026-11-02T17:57:56.152Z");function v(){if(Date.now()-c>25*60000){var e=document.getElementById('atraso');if(e)e.style.display='block'}}v();setInterval(v,60000);setTimeout(function(){location.replace(location.pathname+'?v='+Date.now())},120000)})();</script>
 </body>
 </html>
