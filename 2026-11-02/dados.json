@@ -171,6 +171,12 @@
  ],
  "emJogo": [
   {
+   "mesa": 1,
+   "a": "Joel D.",
+   "b": "Renatinho",
+   "rodada": 1
+  },
+  {
    "mesa": 2,
    "a": "Leandrinho",
    "b": "Davi N.",
@@ -285,6 +291,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T18:08:09.394Z",
- "conferidoEm": "2026-11-02T18:08:09.394Z"
+ "atualizadoEm": "2026-11-02T18:13:14.585Z",
+ "conferidoEm": "2026-11-02T18:13:14.585Z"
 }
