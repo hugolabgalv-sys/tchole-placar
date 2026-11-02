@@ -6,7 +6,7 @@
  "data": "2026-11-02",
  "finalizado": false,
  "total": 40,
- "jogados": 17,
+ "jogados": 18,
  "classificacao": [
   {
    "pos": 1,
@@ -100,6 +100,16 @@
   },
   {
    "pos": 10,
+   "nome": "Davi N.",
+   "j": 2,
+   "v": 1,
+   "d": 1,
+   "setsPro": 3,
+   "setsContra": 4,
+   "pontos": 3
+  },
+  {
+   "pos": 11,
    "nome": "Marcelino",
    "j": 2,
    "v": 1,
@@ -109,7 +119,17 @@
    "pontos": 3
   },
   {
-   "pos": 11,
+   "pos": 12,
+   "nome": "Jaime",
+   "j": 3,
+   "v": 0,
+   "d": 3,
+   "setsPro": 1,
+   "setsContra": 9,
+   "pontos": 3
+  },
+  {
+   "pos": 13,
    "nome": "Henrique G.",
    "j": 2,
    "v": 0,
@@ -119,7 +139,7 @@
    "pontos": 2
   },
   {
-   "pos": 12,
+   "pos": 14,
    "nome": "Mateus Sette",
    "j": 2,
    "v": 0,
@@ -129,7 +149,7 @@
    "pontos": 2
   },
   {
-   "pos": 13,
+   "pos": 15,
    "nome": "Dani Boy",
    "j": 2,
    "v": 0,
@@ -139,17 +159,7 @@
    "pontos": 2
   },
   {
-   "pos": 14,
-   "nome": "Jaime",
-   "j": 2,
-   "v": 0,
-   "d": 2,
-   "setsPro": 0,
-   "setsContra": 6,
-   "pontos": 2
-  },
-  {
-   "pos": 15,
+   "pos": 16,
    "nome": "Renatinho",
    "j": 2,
    "v": 0,
@@ -157,16 +167,6 @@
    "setsPro": 0,
    "setsContra": 6,
    "pontos": 2
-  },
-  {
-   "pos": 16,
-   "nome": "Davi N.",
-   "j": 1,
-   "v": 0,
-   "d": 1,
-   "setsPro": 0,
-   "setsContra": 3,
-   "pontos": 1
   }
  ],
  "emJogo": [
@@ -177,13 +177,42 @@
    "rodada": 3
   },
   {
-   "mesa": 4,
-   "a": "Jaime",
-   "b": "Davi N.",
+   "mesa": 5,
+   "a": "Marcelino",
+   "b": "Joel D.",
    "rodada": 3
   }
  ],
  "resultados": [
+  {
+   "rodada": 3,
+   "a": "Jaime",
+   "b": "Davi N.",
+   "setsA": 1,
+   "setsB": 3,
+   "parciais": [
+    [
+     12,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     3,
+     11
+    ],
+    [
+     5,
+     11
+    ]
+   ],
+   "vencedor": "B",
+   "wo": false,
+   "fim": "2026-11-02T19:18:12.332Z",
+   "melhorDe": 5
+  },
   {
    "rodada": 3,
    "a": "Carenato",
@@ -642,6 +671,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T19:09:11.062Z",
- "conferidoEm": "2026-11-02T19:09:11.062Z"
+ "atualizadoEm": "2026-11-02T19:19:19.107Z",
+ "conferidoEm": "2026-11-02T19:19:19.107Z"
 }
