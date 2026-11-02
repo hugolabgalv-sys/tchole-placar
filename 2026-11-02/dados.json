@@ -171,6 +171,12 @@
  ],
  "emJogo": [
   {
+   "mesa": 1,
+   "a": "Carenato",
+   "b": "Leandrinho",
+   "rodada": 3
+  },
+  {
    "mesa": 2,
    "a": "Marcelino",
    "b": "Henrique G.",
@@ -532,6 +538,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T18:43:47.100Z",
- "conferidoEm": "2026-11-02T18:43:47.100Z"
+ "atualizadoEm": "2026-11-02T18:53:52.899Z",
+ "conferidoEm": "2026-11-02T18:53:52.899Z"
 }
