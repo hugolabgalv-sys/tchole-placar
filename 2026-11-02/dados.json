@@ -6,7 +6,7 @@
  "data": "2026-11-02",
  "finalizado": false,
  "total": 40,
- "jogados": 6,
+ "jogados": 7,
  "classificacao": [
   {
    "pos": 1,
@@ -60,6 +60,16 @@
   },
   {
    "pos": 6,
+   "nome": "Leandrinho",
+   "j": 1,
+   "v": 1,
+   "d": 0,
+   "setsPro": 3,
+   "setsContra": 0,
+   "pontos": 2
+  },
+  {
+   "pos": 7,
    "nome": "Carenato",
    "j": 1,
    "v": 1,
@@ -69,7 +79,7 @@
    "pontos": 2
   },
   {
-   "pos": 7,
+   "pos": 8,
    "nome": "Mateus Sette",
    "j": 1,
    "v": 0,
@@ -79,18 +89,8 @@
    "pontos": 1
   },
   {
-   "pos": 8,
-   "nome": "Marcelino",
-   "j": 1,
-   "v": 0,
-   "d": 1,
-   "setsPro": 0,
-   "setsContra": 3,
-   "pontos": 1
-  },
-  {
    "pos": 9,
-   "nome": "Jaime",
+   "nome": "Davi N.",
    "j": 1,
    "v": 0,
    "d": 1,
@@ -100,7 +100,7 @@
   },
   {
    "pos": 10,
-   "nome": "Dani Boy",
+   "nome": "Marcelino",
    "j": 1,
    "v": 0,
    "d": 1,
@@ -110,7 +110,7 @@
   },
   {
    "pos": 11,
-   "nome": "Henrique G.",
+   "nome": "Jaime",
    "j": 1,
    "v": 0,
    "d": 1,
@@ -120,7 +120,7 @@
   },
   {
    "pos": 12,
-   "nome": "Renatinho",
+   "nome": "Dani Boy",
    "j": 1,
    "v": 0,
    "d": 1,
@@ -130,6 +130,26 @@
   },
   {
    "pos": 13,
+   "nome": "Henrique G.",
+   "j": 1,
+   "v": 0,
+   "d": 1,
+   "setsPro": 0,
+   "setsContra": 3,
+   "pontos": 1
+  },
+  {
+   "pos": 14,
+   "nome": "Renatinho",
+   "j": 1,
+   "v": 0,
+   "d": 1,
+   "setsPro": 0,
+   "setsContra": 3,
+   "pontos": 1
+  },
+  {
+   "pos": 15,
    "nome": "Pedro M.",
    "j": 0,
    "v": 0,
@@ -139,28 +159,8 @@
    "pontos": 0
   },
   {
-   "pos": 14,
-   "nome": "Mateus M.",
-   "j": 0,
-   "v": 0,
-   "d": 0,
-   "setsPro": 0,
-   "setsContra": 0,
-   "pontos": 0
-  },
-  {
-   "pos": 15,
-   "nome": "Davi N.",
-   "j": 0,
-   "v": 0,
-   "d": 0,
-   "setsPro": 0,
-   "setsContra": 0,
-   "pontos": 0
-  },
-  {
    "pos": 16,
-   "nome": "Leandrinho",
+   "nome": "Mateus M.",
    "j": 0,
    "v": 0,
    "d": 0,
@@ -177,12 +177,6 @@
    "rodada": 2
   },
   {
-   "mesa": 2,
-   "a": "Leandrinho",
-   "b": "Davi N.",
-   "rodada": 1
-  },
-  {
    "mesa": 3,
    "a": "Pedro M.",
    "b": "Mateus M.",
@@ -196,6 +190,31 @@
   }
  ],
  "resultados": [
+  {
+   "rodada": 1,
+   "a": "Leandrinho",
+   "b": "Davi N.",
+   "setsA": 3,
+   "setsB": 0,
+   "parciais": [
+    [
+     11,
+     7
+    ],
+    [
+     14,
+     12
+    ],
+    [
+     11,
+     8
+    ]
+   ],
+   "vencedor": "A",
+   "wo": false,
+   "fim": "2026-11-02T18:18:27.345Z",
+   "melhorDe": 5
+  },
   {
    "rodada": 1,
    "a": "Carenato",
@@ -351,6 +370,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T18:18:19.429Z",
- "conferidoEm": "2026-11-02T18:18:19.429Z"
+ "atualizadoEm": "2026-11-02T18:23:24.038Z",
+ "conferidoEm": "2026-11-02T18:23:24.038Z"
 }
