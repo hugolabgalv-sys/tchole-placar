@@ -6,21 +6,21 @@
  "data": "2026-11-02",
  "finalizado": false,
  "total": 40,
- "jogados": 7,
+ "jogados": 8,
  "classificacao": [
   {
    "pos": 1,
-   "nome": "Joel D.",
-   "j": 1,
-   "v": 1,
+   "nome": "Thiago M.",
+   "j": 2,
+   "v": 2,
    "d": 0,
-   "setsPro": 3,
+   "setsPro": 6,
    "setsContra": 0,
-   "pontos": 2
+   "pontos": 4
   },
   {
    "pos": 2,
-   "nome": "Thiago M.",
+   "nome": "Joel D.",
    "j": 1,
    "v": 1,
    "d": 0,
@@ -80,6 +80,16 @@
   },
   {
    "pos": 8,
+   "nome": "Jaime",
+   "j": 2,
+   "v": 0,
+   "d": 2,
+   "setsPro": 0,
+   "setsContra": 6,
+   "pontos": 2
+  },
+  {
+   "pos": 9,
    "nome": "Mateus Sette",
    "j": 1,
    "v": 0,
@@ -89,7 +99,7 @@
    "pontos": 1
   },
   {
-   "pos": 9,
+   "pos": 10,
    "nome": "Davi N.",
    "j": 1,
    "v": 0,
@@ -99,18 +109,8 @@
    "pontos": 1
   },
   {
-   "pos": 10,
-   "nome": "Marcelino",
-   "j": 1,
-   "v": 0,
-   "d": 1,
-   "setsPro": 0,
-   "setsContra": 3,
-   "pontos": 1
-  },
-  {
    "pos": 11,
-   "nome": "Jaime",
+   "nome": "Marcelino",
    "j": 1,
    "v": 0,
    "d": 1,
@@ -171,9 +171,9 @@
  ],
  "emJogo": [
   {
-   "mesa": 1,
-   "a": "Thiago M.",
-   "b": "Jaime",
+   "mesa": 2,
+   "a": "Carenato",
+   "b": "Dani Boy",
    "rodada": 2
   },
   {
@@ -183,6 +183,12 @@
    "rodada": 1
   },
   {
+   "mesa": 4,
+   "a": "Joel D.",
+   "b": "Mateus Sette",
+   "rodada": 2
+  },
+  {
    "mesa": 5,
    "a": "Igor",
    "b": "Isac",
@@ -190,6 +196,31 @@
   }
  ],
  "resultados": [
+  {
+   "rodada": 2,
+   "a": "Thiago M.",
+   "b": "Jaime",
+   "setsA": 3,
+   "setsB": 0,
+   "parciais": [
+    [
+     11,
+     5
+    ],
+    [
+     11,
+     4
+    ],
+    [
+     11,
+     4
+    ]
+   ],
+   "vencedor": "A",
+   "wo": false,
+   "fim": "2026-11-02T18:26:27.690Z",
+   "melhorDe": 5
+  },
   {
    "rodada": 1,
    "a": "Leandrinho",
@@ -370,6 +401,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T18:23:24.038Z",
- "conferidoEm": "2026-11-02T18:23:24.038Z"
+ "atualizadoEm": "2026-11-02T18:28:30.733Z",
+ "conferidoEm": "2026-11-02T18:28:30.733Z"
 }
