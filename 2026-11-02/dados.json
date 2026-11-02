@@ -6,7 +6,7 @@
  "data": "2026-11-02",
  "finalizado": false,
  "total": 40,
- "jogados": 33,
+ "jogados": 37,
  "classificacao": [
   {
    "pos": 1,
@@ -30,6 +30,16 @@
   },
   {
    "pos": 3,
+   "nome": "Davi N.",
+   "j": 5,
+   "v": 4,
+   "d": 1,
+   "setsPro": 9,
+   "setsContra": 6,
+   "pontos": 9
+  },
+  {
+   "pos": 4,
    "nome": "Joel D.",
    "j": 4,
    "v": 4,
@@ -39,7 +49,7 @@
    "pontos": 8
   },
   {
-   "pos": 4,
+   "pos": 5,
    "nome": "Isac",
    "j": 5,
    "v": 4,
@@ -49,7 +59,7 @@
    "pontos": 8
   },
   {
-   "pos": 5,
+   "pos": 6,
    "nome": "Thiago M.",
    "j": 5,
    "v": 3,
@@ -59,7 +69,7 @@
    "pontos": 8
   },
   {
-   "pos": 6,
+   "pos": 7,
    "nome": "Wander",
    "j": 4,
    "v": 3,
@@ -69,17 +79,27 @@
    "pontos": 7
   },
   {
-   "pos": 7,
+   "pos": 8,
    "nome": "Igor",
-   "j": 4,
+   "j": 5,
    "v": 3,
-   "d": 1,
+   "d": 2,
    "setsPro": 11,
    "setsContra": 5,
    "pontos": 7
   },
   {
-   "pos": 8,
+   "pos": 9,
+   "nome": "Mateus M.",
+   "j": 5,
+   "v": 2,
+   "d": 3,
+   "setsPro": 9,
+   "setsContra": 10,
+   "pontos": 7
+  },
+  {
+   "pos": 10,
    "nome": "Pedro M.",
    "j": 4,
    "v": 2,
@@ -89,27 +109,17 @@
    "pontos": 6
   },
   {
-   "pos": 9,
-   "nome": "Davi N.",
-   "j": 3,
-   "v": 2,
-   "d": 1,
-   "setsPro": 6,
-   "setsContra": 6,
-   "pontos": 5
-  },
-  {
-   "pos": 10,
-   "nome": "Mateus M.",
+   "pos": 11,
+   "nome": "Henrique G.",
    "j": 4,
    "v": 1,
    "d": 3,
-   "setsPro": 6,
-   "setsContra": 10,
+   "setsPro": 5,
+   "setsContra": 11,
    "pontos": 5
   },
   {
-   "pos": 11,
+   "pos": 12,
    "nome": "Dani Boy",
    "j": 4,
    "v": 1,
@@ -119,7 +129,17 @@
    "pontos": 5
   },
   {
-   "pos": 12,
+   "pos": 13,
+   "nome": "Marcelino",
+   "j": 4,
+   "v": 1,
+   "d": 3,
+   "setsPro": 3,
+   "setsContra": 11,
+   "pontos": 5
+  },
+  {
+   "pos": 14,
    "nome": "Mateus Sette",
    "j": 5,
    "v": 0,
@@ -129,61 +149,130 @@
    "pontos": 5
   },
   {
-   "pos": 13,
-   "nome": "Marcelino",
-   "j": 3,
-   "v": 1,
-   "d": 2,
-   "setsPro": 3,
-   "setsContra": 8,
-   "pontos": 4
-  },
-  {
-   "pos": 14,
-   "nome": "Jaime",
-   "j": 4,
-   "v": 0,
-   "d": 4,
-   "setsPro": 1,
-   "setsContra": 12,
-   "pontos": 4
-  },
-  {
    "pos": 15,
-   "nome": "Renatinho",
-   "j": 4,
+   "nome": "Jaime",
+   "j": 5,
    "v": 0,
-   "d": 4,
-   "setsPro": 0,
-   "setsContra": 12,
-   "pontos": 4
+   "d": 5,
+   "setsPro": 3,
+   "setsContra": 15,
+   "pontos": 5
   },
   {
    "pos": 16,
-   "nome": "Henrique G.",
-   "j": 3,
+   "nome": "Renatinho",
+   "j": 5,
    "v": 0,
-   "d": 3,
-   "setsPro": 2,
-   "setsContra": 9,
-   "pontos": 3
+   "d": 5,
+   "setsPro": 0,
+   "setsContra": 15,
+   "pontos": 5
   }
  ],
  "emJogo": [
   {
    "mesa": 2,
-   "a": "Jaime",
-   "b": "Henrique G.",
-   "rodada": 4
-  },
-  {
-   "mesa": 5,
-   "a": "Marcelino",
-   "b": "Davi N.",
-   "rodada": 4
+   "a": "Henrique G.",
+   "b": "Joel D.",
+   "rodada": 5
   }
  ],
  "resultados": [
+  {
+   "rodada": 4,
+   "a": "Marcelino",
+   "b": "Davi N.",
+   "setsA": 0,
+   "setsB": 3,
+   "parciais": [
+    [
+     8,
+     11
+    ],
+    [
+     7,
+     11
+    ],
+    [
+     7,
+     11
+    ]
+   ],
+   "vencedor": "B",
+   "wo": false,
+   "fim": "2026-11-02T20:29:21.645Z",
+   "melhorDe": 5
+  },
+  {
+   "rodada": 4,
+   "a": "Jaime",
+   "b": "Henrique G.",
+   "setsA": 2,
+   "setsB": 3,
+   "parciais": [
+    [
+     11,
+     8
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     11,
+     13
+    ],
+    [
+     11,
+     6
+    ],
+    [
+     7,
+     11
+    ]
+   ],
+   "vencedor": "B",
+   "wo": false,
+   "fim": "2026-11-02T20:27:55.005Z",
+   "melhorDe": 5
+  },
+  {
+   "rodada": 5,
+   "a": "Igor",
+   "b": "Davi N.",
+   "setsA": 0,
+   "setsB": 0,
+   "parciais": [],
+   "vencedor": "B",
+   "wo": true,
+   "fim": "2026-11-02T20:27:31.872Z",
+   "melhorDe": 5
+  },
+  {
+   "rodada": 5,
+   "a": "Renatinho",
+   "b": "Mateus M.",
+   "setsA": 0,
+   "setsB": 3,
+   "parciais": [
+    [
+     8,
+     11
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     9,
+     11
+    ]
+   ],
+   "vencedor": "B",
+   "wo": false,
+   "fim": "2026-11-02T20:26:07.755Z",
+   "melhorDe": 5
+  },
   {
    "rodada": 5,
    "a": "Isac",
@@ -1069,6 +1158,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T20:25:18.179Z",
- "conferidoEm": "2026-11-02T20:25:18.179Z"
+ "atualizadoEm": "2026-11-02T20:30:22.863Z",
+ "conferidoEm": "2026-11-02T20:30:22.863Z"
 }
