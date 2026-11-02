@@ -6,7 +6,7 @@
  "data": "2026-11-02",
  "finalizado": false,
  "total": 40,
- "jogados": 21,
+ "jogados": 22,
  "classificacao": [
   {
    "pos": 1,
@@ -80,6 +80,16 @@
   },
   {
    "pos": 8,
+   "nome": "Dani Boy",
+   "j": 3,
+   "v": 1,
+   "d": 2,
+   "setsPro": 3,
+   "setsContra": 6,
+   "pontos": 4
+  },
+  {
+   "pos": 9,
    "nome": "Marcelino",
    "j": 3,
    "v": 1,
@@ -89,7 +99,7 @@
    "pontos": 4
   },
   {
-   "pos": 9,
+   "pos": 10,
    "nome": "Wander",
    "j": 2,
    "v": 1,
@@ -99,7 +109,7 @@
    "pontos": 3
   },
   {
-   "pos": 10,
+   "pos": 11,
    "nome": "Mateus M.",
    "j": 2,
    "v": 1,
@@ -109,7 +119,7 @@
    "pontos": 3
   },
   {
-   "pos": 11,
+   "pos": 12,
    "nome": "Davi N.",
    "j": 2,
    "v": 1,
@@ -119,7 +129,7 @@
    "pontos": 3
   },
   {
-   "pos": 12,
+   "pos": 13,
    "nome": "Mateus Sette",
    "j": 3,
    "v": 0,
@@ -129,7 +139,7 @@
    "pontos": 3
   },
   {
-   "pos": 13,
+   "pos": 14,
    "nome": "Jaime",
    "j": 3,
    "v": 0,
@@ -139,32 +149,22 @@
    "pontos": 3
   },
   {
-   "pos": 14,
+   "pos": 15,
+   "nome": "Renatinho",
+   "j": 3,
+   "v": 0,
+   "d": 3,
+   "setsPro": 0,
+   "setsContra": 9,
+   "pontos": 3
+  },
+  {
+   "pos": 16,
    "nome": "Henrique G.",
    "j": 2,
    "v": 0,
    "d": 2,
    "setsPro": 2,
-   "setsContra": 6,
-   "pontos": 2
-  },
-  {
-   "pos": 15,
-   "nome": "Dani Boy",
-   "j": 2,
-   "v": 0,
-   "d": 2,
-   "setsPro": 0,
-   "setsContra": 6,
-   "pontos": 2
-  },
-  {
-   "pos": 16,
-   "nome": "Renatinho",
-   "j": 2,
-   "v": 0,
-   "d": 2,
-   "setsPro": 0,
    "setsContra": 6,
    "pontos": 2
   }
@@ -178,8 +178,8 @@
   },
   {
    "mesa": 2,
-   "a": "Dani Boy",
-   "b": "Renatinho",
+   "a": "Henrique G.",
+   "b": "Wander",
    "rodada": 3
   },
   {
@@ -187,9 +187,40 @@
    "a": "Mateus M.",
    "b": "Davi N.",
    "rodada": 2
+  },
+  {
+   "mesa": 5,
+   "a": "Jaime",
+   "b": "Carenato",
+   "rodada": 5
   }
  ],
  "resultados": [
+  {
+   "rodada": 3,
+   "a": "Dani Boy",
+   "b": "Renatinho",
+   "setsA": 3,
+   "setsB": 0,
+   "parciais": [
+    [
+     11,
+     9
+    ],
+    [
+     11,
+     2
+    ],
+    [
+     12,
+     10
+    ]
+   ],
+   "vencedor": "A",
+   "wo": false,
+   "fim": "2026-11-02T19:32:59.511Z",
+   "melhorDe": 5
+  },
   {
    "rodada": 3,
    "a": "Thiago M.",
@@ -764,6 +795,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T19:29:28.489Z",
- "conferidoEm": "2026-11-02T19:29:28.489Z"
+ "atualizadoEm": "2026-11-02T19:34:34.301Z",
+ "conferidoEm": "2026-11-02T19:34:34.301Z"
 }
