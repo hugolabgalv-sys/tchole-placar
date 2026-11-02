@@ -171,6 +171,12 @@
  ],
  "emJogo": [
   {
+   "mesa": 1,
+   "a": "Joel D.",
+   "b": "Mateus M.",
+   "rodada": 4
+  },
+  {
    "mesa": 2,
    "a": "Leandrinho",
    "b": "Pedro M.",
@@ -924,6 +930,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T19:59:51.919Z",
- "conferidoEm": "2026-11-02T19:59:51.919Z"
+ "atualizadoEm": "2026-11-02T20:04:58.274Z",
+ "conferidoEm": "2026-11-02T20:04:58.274Z"
 }
