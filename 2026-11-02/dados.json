@@ -6,11 +6,11 @@
  "data": "2026-11-02",
  "finalizado": false,
  "total": 40,
- "jogados": 4,
+ "jogados": 6,
  "classificacao": [
   {
    "pos": 1,
-   "nome": "Thiago M.",
+   "nome": "Joel D.",
    "j": 1,
    "v": 1,
    "d": 0,
@@ -20,7 +20,7 @@
   },
   {
    "pos": 2,
-   "nome": "Isac",
+   "nome": "Thiago M.",
    "j": 1,
    "v": 1,
    "d": 0,
@@ -30,7 +30,7 @@
   },
   {
    "pos": 3,
-   "nome": "Igor",
+   "nome": "Isac",
    "j": 1,
    "v": 1,
    "d": 0,
@@ -40,7 +40,7 @@
   },
   {
    "pos": 4,
-   "nome": "Wander",
+   "nome": "Igor",
    "j": 1,
    "v": 1,
    "d": 0,
@@ -50,6 +50,36 @@
   },
   {
    "pos": 5,
+   "nome": "Wander",
+   "j": 1,
+   "v": 1,
+   "d": 0,
+   "setsPro": 3,
+   "setsContra": 0,
+   "pontos": 2
+  },
+  {
+   "pos": 6,
+   "nome": "Carenato",
+   "j": 1,
+   "v": 1,
+   "d": 0,
+   "setsPro": 3,
+   "setsContra": 1,
+   "pontos": 2
+  },
+  {
+   "pos": 7,
+   "nome": "Mateus Sette",
+   "j": 1,
+   "v": 0,
+   "d": 1,
+   "setsPro": 1,
+   "setsContra": 3,
+   "pontos": 1
+  },
+  {
+   "pos": 8,
    "nome": "Marcelino",
    "j": 1,
    "v": 0,
@@ -59,7 +89,7 @@
    "pontos": 1
   },
   {
-   "pos": 6,
+   "pos": 9,
    "nome": "Jaime",
    "j": 1,
    "v": 0,
@@ -69,7 +99,7 @@
    "pontos": 1
   },
   {
-   "pos": 7,
+   "pos": 10,
    "nome": "Dani Boy",
    "j": 1,
    "v": 0,
@@ -79,7 +109,7 @@
    "pontos": 1
   },
   {
-   "pos": 8,
+   "pos": 11,
    "nome": "Henrique G.",
    "j": 1,
    "v": 0,
@@ -89,7 +119,17 @@
    "pontos": 1
   },
   {
-   "pos": 9,
+   "pos": 12,
+   "nome": "Renatinho",
+   "j": 1,
+   "v": 0,
+   "d": 1,
+   "setsPro": 0,
+   "setsContra": 3,
+   "pontos": 1
+  },
+  {
+   "pos": 13,
    "nome": "Pedro M.",
    "j": 0,
    "v": 0,
@@ -99,7 +139,7 @@
    "pontos": 0
   },
   {
-   "pos": 10,
+   "pos": 14,
    "nome": "Mateus M.",
    "j": 0,
    "v": 0,
@@ -109,48 +149,8 @@
    "pontos": 0
   },
   {
-   "pos": 11,
-   "nome": "Davi N.",
-   "j": 0,
-   "v": 0,
-   "d": 0,
-   "setsPro": 0,
-   "setsContra": 0,
-   "pontos": 0
-  },
-  {
-   "pos": 12,
-   "nome": "Renatinho",
-   "j": 0,
-   "v": 0,
-   "d": 0,
-   "setsPro": 0,
-   "setsContra": 0,
-   "pontos": 0
-  },
-  {
-   "pos": 13,
-   "nome": "Mateus Sette",
-   "j": 0,
-   "v": 0,
-   "d": 0,
-   "setsPro": 0,
-   "setsContra": 0,
-   "pontos": 0
-  },
-  {
-   "pos": 14,
-   "nome": "Carenato",
-   "j": 0,
-   "v": 0,
-   "d": 0,
-   "setsPro": 0,
-   "setsContra": 0,
-   "pontos": 0
-  },
-  {
    "pos": 15,
-   "nome": "Joel D.",
+   "nome": "Davi N.",
    "j": 0,
    "v": 0,
    "d": 0,
@@ -172,9 +172,9 @@
  "emJogo": [
   {
    "mesa": 1,
-   "a": "Joel D.",
-   "b": "Renatinho",
-   "rodada": 1
+   "a": "Thiago M.",
+   "b": "Jaime",
+   "rodada": 2
   },
   {
    "mesa": 2,
@@ -183,13 +183,73 @@
    "rodada": 1
   },
   {
-   "mesa": 4,
-   "a": "Carenato",
-   "b": "Mateus Sette",
+   "mesa": 3,
+   "a": "Pedro M.",
+   "b": "Mateus M.",
    "rodada": 1
+  },
+  {
+   "mesa": 5,
+   "a": "Igor",
+   "b": "Isac",
+   "rodada": 2
   }
  ],
  "resultados": [
+  {
+   "rodada": 1,
+   "a": "Carenato",
+   "b": "Mateus Sette",
+   "setsA": 3,
+   "setsB": 1,
+   "parciais": [
+    [
+     11,
+     7
+    ],
+    [
+     11,
+     5
+    ],
+    [
+     11,
+     13
+    ],
+    [
+     16,
+     14
+    ]
+   ],
+   "vencedor": "A",
+   "wo": false,
+   "fim": "2026-11-02T18:16:09.221Z",
+   "melhorDe": 5
+  },
+  {
+   "rodada": 1,
+   "a": "Joel D.",
+   "b": "Renatinho",
+   "setsA": 3,
+   "setsB": 0,
+   "parciais": [
+    [
+     11,
+     2
+    ],
+    [
+     11,
+     1
+    ],
+    [
+     11,
+     3
+    ]
+   ],
+   "vencedor": "A",
+   "wo": false,
+   "fim": "2026-11-02T18:15:14.260Z",
+   "melhorDe": 5
+  },
   {
    "rodada": 1,
    "a": "Marcelino",
@@ -291,6 +351,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T18:13:14.585Z",
- "conferidoEm": "2026-11-02T18:13:14.585Z"
+ "atualizadoEm": "2026-11-02T18:18:19.429Z",
+ "conferidoEm": "2026-11-02T18:18:19.429Z"
 }
