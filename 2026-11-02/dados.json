@@ -171,6 +171,12 @@
  ],
  "emJogo": [
   {
+   "mesa": 1,
+   "a": "Mateus Sette",
+   "b": "Leandrinho",
+   "rodada": 5
+  },
+  {
    "mesa": 2,
    "a": "Jaime",
    "b": "Henrique G.",
@@ -974,6 +980,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T20:10:03.436Z",
- "conferidoEm": "2026-11-02T20:10:03.436Z"
+ "atualizadoEm": "2026-11-02T20:15:08.399Z",
+ "conferidoEm": "2026-11-02T20:15:08.399Z"
 }
