@@ -6,7 +6,7 @@
  "data": "2026-11-02",
  "finalizado": false,
  "total": 40,
- "jogados": 37,
+ "jogados": 36,
  "classificacao": [
   {
    "pos": 1,
@@ -30,16 +30,6 @@
   },
   {
    "pos": 3,
-   "nome": "Davi N.",
-   "j": 5,
-   "v": 4,
-   "d": 1,
-   "setsPro": 9,
-   "setsContra": 6,
-   "pontos": 9
-  },
-  {
-   "pos": 4,
    "nome": "Joel D.",
    "j": 4,
    "v": 4,
@@ -49,7 +39,7 @@
    "pontos": 8
   },
   {
-   "pos": 5,
+   "pos": 4,
    "nome": "Isac",
    "j": 5,
    "v": 4,
@@ -59,7 +49,7 @@
    "pontos": 8
   },
   {
-   "pos": 6,
+   "pos": 5,
    "nome": "Thiago M.",
    "j": 5,
    "v": 3,
@@ -69,7 +59,7 @@
    "pontos": 8
   },
   {
-   "pos": 7,
+   "pos": 6,
    "nome": "Wander",
    "j": 4,
    "v": 3,
@@ -79,13 +69,23 @@
    "pontos": 7
   },
   {
-   "pos": 8,
+   "pos": 7,
    "nome": "Igor",
-   "j": 5,
+   "j": 4,
    "v": 3,
-   "d": 2,
+   "d": 1,
    "setsPro": 11,
    "setsContra": 5,
+   "pontos": 7
+  },
+  {
+   "pos": 8,
+   "nome": "Davi N.",
+   "j": 4,
+   "v": 3,
+   "d": 1,
+   "setsPro": 9,
+   "setsContra": 6,
    "pontos": 7
   },
   {
@@ -171,6 +171,12 @@
  ],
  "emJogo": [
   {
+   "mesa": 1,
+   "a": "Wander",
+   "b": "Pedro M.",
+   "rodada": 5
+  },
+  {
    "mesa": 2,
    "a": "Henrique G.",
    "b": "Joel D.",
@@ -234,18 +240,6 @@
    "vencedor": "B",
    "wo": false,
    "fim": "2026-11-02T20:27:55.005Z",
-   "melhorDe": 5
-  },
-  {
-   "rodada": 5,
-   "a": "Igor",
-   "b": "Davi N.",
-   "setsA": 0,
-   "setsB": 0,
-   "parciais": [],
-   "vencedor": "B",
-   "wo": true,
-   "fim": "2026-11-02T20:27:31.872Z",
    "melhorDe": 5
   },
   {
@@ -1158,6 +1152,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T20:30:22.863Z",
- "conferidoEm": "2026-11-02T20:30:22.863Z"
+ "atualizadoEm": "2026-11-02T20:35:27.484Z",
+ "conferidoEm": "2026-11-02T20:35:27.484Z"
 }
