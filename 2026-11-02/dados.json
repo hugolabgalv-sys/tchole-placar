@@ -6,10 +6,20 @@
  "data": "2026-11-02",
  "finalizado": false,
  "total": 40,
- "jogados": 16,
+ "jogados": 17,
  "classificacao": [
   {
    "pos": 1,
+   "nome": "Carenato",
+   "j": 3,
+   "v": 3,
+   "d": 0,
+   "setsPro": 9,
+   "setsContra": 2,
+   "pontos": 6
+  },
+  {
+   "pos": 2,
    "nome": "Isac",
    "j": 3,
    "v": 3,
@@ -19,7 +29,17 @@
    "pontos": 6
   },
   {
-   "pos": 2,
+   "pos": 3,
+   "nome": "Leandrinho",
+   "j": 3,
+   "v": 2,
+   "d": 1,
+   "setsPro": 7,
+   "setsContra": 3,
+   "pontos": 5
+  },
+  {
+   "pos": 4,
    "nome": "Joel D.",
    "j": 2,
    "v": 2,
@@ -29,33 +49,13 @@
    "pontos": 4
   },
   {
-   "pos": 3,
+   "pos": 5,
    "nome": "Thiago M.",
    "j": 2,
    "v": 2,
    "d": 0,
    "setsPro": 6,
    "setsContra": 0,
-   "pontos": 4
-  },
-  {
-   "pos": 4,
-   "nome": "Leandrinho",
-   "j": 2,
-   "v": 2,
-   "d": 0,
-   "setsPro": 6,
-   "setsContra": 0,
-   "pontos": 4
-  },
-  {
-   "pos": 5,
-   "nome": "Carenato",
-   "j": 2,
-   "v": 2,
-   "d": 0,
-   "setsPro": 6,
-   "setsContra": 1,
    "pontos": 4
   },
   {
@@ -172,8 +172,8 @@
  "emJogo": [
   {
    "mesa": 1,
-   "a": "Carenato",
-   "b": "Leandrinho",
+   "a": "Igor",
+   "b": "Mateus Sette",
    "rodada": 3
   },
   {
@@ -184,6 +184,35 @@
   }
  ],
  "resultados": [
+  {
+   "rodada": 3,
+   "a": "Carenato",
+   "b": "Leandrinho",
+   "setsA": 3,
+   "setsB": 1,
+   "parciais": [
+    [
+     10,
+     12
+    ],
+    [
+     11,
+     6
+    ],
+    [
+     11,
+     5
+    ],
+    [
+     12,
+     10
+    ]
+   ],
+   "vencedor": "A",
+   "wo": false,
+   "fim": "2026-11-02T19:05:12.480Z",
+   "melhorDe": 5
+  },
   {
    "rodada": 3,
    "a": "Isac",
@@ -613,6 +642,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T19:04:06.303Z",
- "conferidoEm": "2026-11-02T19:04:06.303Z"
+ "atualizadoEm": "2026-11-02T19:09:11.062Z",
+ "conferidoEm": "2026-11-02T19:09:11.062Z"
 }
