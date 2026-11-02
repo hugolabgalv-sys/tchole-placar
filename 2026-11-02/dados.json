@@ -6,7 +6,7 @@
  "data": "2026-11-02",
  "finalizado": false,
  "total": 40,
- "jogados": 13,
+ "jogados": 14,
  "classificacao": [
   {
    "pos": 1,
@@ -70,6 +70,16 @@
   },
   {
    "pos": 7,
+   "nome": "Pedro M.",
+   "j": 2,
+   "v": 1,
+   "d": 1,
+   "setsPro": 4,
+   "setsContra": 3,
+   "pontos": 3
+  },
+  {
+   "pos": 8,
    "nome": "Wander",
    "j": 2,
    "v": 1,
@@ -79,7 +89,7 @@
    "pontos": 3
   },
   {
-   "pos": 8,
+   "pos": 9,
    "nome": "Mateus M.",
    "j": 1,
    "v": 1,
@@ -89,7 +99,7 @@
    "pontos": 2
   },
   {
-   "pos": 9,
+   "pos": 10,
    "nome": "Mateus Sette",
    "j": 2,
    "v": 0,
@@ -99,7 +109,7 @@
    "pontos": 2
   },
   {
-   "pos": 10,
+   "pos": 11,
    "nome": "Dani Boy",
    "j": 2,
    "v": 0,
@@ -109,7 +119,7 @@
    "pontos": 2
   },
   {
-   "pos": 11,
+   "pos": 12,
    "nome": "Jaime",
    "j": 2,
    "v": 0,
@@ -119,17 +129,17 @@
    "pontos": 2
   },
   {
-   "pos": 12,
-   "nome": "Pedro M.",
-   "j": 1,
+   "pos": 13,
+   "nome": "Renatinho",
+   "j": 2,
    "v": 0,
-   "d": 1,
-   "setsPro": 1,
-   "setsContra": 3,
-   "pontos": 1
+   "d": 2,
+   "setsPro": 0,
+   "setsContra": 6,
+   "pontos": 2
   },
   {
-   "pos": 13,
+   "pos": 14,
    "nome": "Davi N.",
    "j": 1,
    "v": 0,
@@ -139,7 +149,7 @@
    "pontos": 1
   },
   {
-   "pos": 14,
+   "pos": 15,
    "nome": "Marcelino",
    "j": 1,
    "v": 0,
@@ -149,18 +159,8 @@
    "pontos": 1
   },
   {
-   "pos": 15,
-   "nome": "Henrique G.",
-   "j": 1,
-   "v": 0,
-   "d": 1,
-   "setsPro": 0,
-   "setsContra": 3,
-   "pontos": 1
-  },
-  {
    "pos": 16,
-   "nome": "Renatinho",
+   "nome": "Henrique G.",
    "j": 1,
    "v": 0,
    "d": 1,
@@ -183,12 +183,6 @@
    "rodada": 2
   },
   {
-   "mesa": 3,
-   "a": "Pedro M.",
-   "b": "Renatinho",
-   "rodada": 2
-  },
-  {
    "mesa": 5,
    "a": "Isac",
    "b": "Mateus M.",
@@ -196,6 +190,31 @@
   }
  ],
  "resultados": [
+  {
+   "rodada": 2,
+   "a": "Pedro M.",
+   "b": "Renatinho",
+   "setsA": 3,
+   "setsB": 0,
+   "parciais": [
+    [
+     11,
+     4
+    ],
+    [
+     14,
+     12
+    ],
+    [
+     12,
+     10
+    ]
+   ],
+   "vencedor": "A",
+   "wo": false,
+   "fim": "2026-11-02T18:57:16.074Z",
+   "melhorDe": 5
+  },
   {
    "rodada": 2,
    "a": "Leandrinho",
@@ -538,6 +557,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T18:53:52.899Z",
- "conferidoEm": "2026-11-02T18:53:52.899Z"
+ "atualizadoEm": "2026-11-02T18:59:00.459Z",
+ "conferidoEm": "2026-11-02T18:59:00.459Z"
 }
