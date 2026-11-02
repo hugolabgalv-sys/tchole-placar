@@ -6,7 +6,7 @@
  "data": "2026-11-02",
  "finalizado": false,
  "total": 40,
- "jogados": 38,
+ "jogados": 39,
  "classificacao": [
   {
    "pos": 1,
@@ -100,6 +100,16 @@
   },
   {
    "pos": 10,
+   "nome": "Dani Boy",
+   "j": 5,
+   "v": 2,
+   "d": 3,
+   "setsPro": 7,
+   "setsContra": 9,
+   "pontos": 7
+  },
+  {
+   "pos": 11,
    "nome": "Pedro M.",
    "j": 5,
    "v": 2,
@@ -109,7 +119,17 @@
    "pontos": 7
   },
   {
-   "pos": 11,
+   "pos": 12,
+   "nome": "Marcelino",
+   "j": 5,
+   "v": 1,
+   "d": 4,
+   "setsPro": 3,
+   "setsContra": 14,
+   "pontos": 6
+  },
+  {
+   "pos": 13,
    "nome": "Henrique G.",
    "j": 5,
    "v": 1,
@@ -117,26 +137,6 @@
    "setsPro": 5,
    "setsContra": 14,
    "pontos": 6
-  },
-  {
-   "pos": 12,
-   "nome": "Dani Boy",
-   "j": 4,
-   "v": 1,
-   "d": 3,
-   "setsPro": 4,
-   "setsContra": 9,
-   "pontos": 5
-  },
-  {
-   "pos": 13,
-   "nome": "Marcelino",
-   "j": 4,
-   "v": 1,
-   "d": 3,
-   "setsPro": 3,
-   "setsContra": 11,
-   "pontos": 5
   },
   {
    "pos": 14,
@@ -171,6 +171,31 @@
  ],
  "emJogo": [],
  "resultados": [
+  {
+   "rodada": 5,
+   "a": "Dani Boy",
+   "b": "Marcelino",
+   "setsA": 3,
+   "setsB": 0,
+   "parciais": [
+    [
+     11,
+     8
+    ],
+    [
+     11,
+     6
+    ],
+    [
+     11,
+     9
+    ]
+   ],
+   "vencedor": "A",
+   "wo": false,
+   "fim": "2026-11-02T20:46:52.072Z",
+   "melhorDe": 5
+  },
   {
    "rodada": 5,
    "a": "Wander",
@@ -1189,6 +1214,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T20:45:39.442Z",
- "conferidoEm": "2026-11-02T20:45:39.442Z"
+ "atualizadoEm": "2026-11-02T20:50:44.070Z",
+ "conferidoEm": "2026-11-02T20:50:44.070Z"
 }
