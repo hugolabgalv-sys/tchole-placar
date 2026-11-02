@@ -6,7 +6,7 @@
  "data": "2026-11-02",
  "finalizado": false,
  "total": 40,
- "jogados": 31,
+ "jogados": 33,
  "classificacao": [
   {
    "pos": 1,
@@ -20,6 +20,16 @@
   },
   {
    "pos": 2,
+   "nome": "Leandrinho",
+   "j": 5,
+   "v": 4,
+   "d": 1,
+   "setsPro": 13,
+   "setsContra": 3,
+   "pontos": 9
+  },
+  {
+   "pos": 3,
    "nome": "Joel D.",
    "j": 4,
    "v": 4,
@@ -29,27 +39,27 @@
    "pontos": 8
   },
   {
-   "pos": 3,
+   "pos": 4,
    "nome": "Isac",
-   "j": 4,
+   "j": 5,
    "v": 4,
-   "d": 0,
+   "d": 1,
    "setsPro": 12,
    "setsContra": 5,
    "pontos": 8
   },
   {
-   "pos": 4,
-   "nome": "Leandrinho",
-   "j": 4,
+   "pos": 5,
+   "nome": "Thiago M.",
+   "j": 5,
    "v": 3,
-   "d": 1,
-   "setsPro": 10,
-   "setsContra": 3,
-   "pontos": 7
+   "d": 2,
+   "setsPro": 9,
+   "setsContra": 6,
+   "pontos": 8
   },
   {
-   "pos": 5,
+   "pos": 6,
    "nome": "Wander",
    "j": 4,
    "v": 3,
@@ -59,7 +69,7 @@
    "pontos": 7
   },
   {
-   "pos": 6,
+   "pos": 7,
    "nome": "Igor",
    "j": 4,
    "v": 3,
@@ -69,23 +79,13 @@
    "pontos": 7
   },
   {
-   "pos": 7,
+   "pos": 8,
    "nome": "Pedro M.",
    "j": 4,
    "v": 2,
    "d": 2,
    "setsPro": 7,
    "setsContra": 8,
-   "pontos": 6
-  },
-  {
-   "pos": 8,
-   "nome": "Thiago M.",
-   "j": 4,
-   "v": 2,
-   "d": 2,
-   "setsPro": 9,
-   "setsContra": 6,
    "pontos": 6
   },
   {
@@ -120,22 +120,22 @@
   },
   {
    "pos": 12,
+   "nome": "Mateus Sette",
+   "j": 5,
+   "v": 0,
+   "d": 5,
+   "setsPro": 4,
+   "setsContra": 15,
+   "pontos": 5
+  },
+  {
+   "pos": 13,
    "nome": "Marcelino",
    "j": 3,
    "v": 1,
    "d": 2,
    "setsPro": 3,
    "setsContra": 8,
-   "pontos": 4
-  },
-  {
-   "pos": 13,
-   "nome": "Mateus Sette",
-   "j": 4,
-   "v": 0,
-   "d": 4,
-   "setsPro": 4,
-   "setsContra": 12,
    "pontos": 4
   },
   {
@@ -171,12 +171,6 @@
  ],
  "emJogo": [
   {
-   "mesa": 1,
-   "a": "Mateus Sette",
-   "b": "Leandrinho",
-   "rodada": 5
-  },
-  {
    "mesa": 2,
    "a": "Jaime",
    "b": "Henrique G.",
@@ -190,6 +184,43 @@
   }
  ],
  "resultados": [
+  {
+   "rodada": 5,
+   "a": "Isac",
+   "b": "Thiago M.",
+   "setsA": 0,
+   "setsB": 0,
+   "parciais": [],
+   "vencedor": "B",
+   "wo": true,
+   "fim": "2026-11-02T20:24:00.874Z",
+   "melhorDe": 5
+  },
+  {
+   "rodada": 5,
+   "a": "Mateus Sette",
+   "b": "Leandrinho",
+   "setsA": 0,
+   "setsB": 3,
+   "parciais": [
+    [
+     8,
+     11
+    ],
+    [
+     9,
+     11
+    ],
+    [
+     4,
+     11
+    ]
+   ],
+   "vencedor": "B",
+   "wo": false,
+   "fim": "2026-11-02T20:20:43.311Z",
+   "melhorDe": 5
+  },
   {
    "rodada": 4,
    "a": "Thiago M.",
@@ -1038,6 +1069,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T20:20:13.405Z",
- "conferidoEm": "2026-11-02T20:20:13.405Z"
+ "atualizadoEm": "2026-11-02T20:25:18.179Z",
+ "conferidoEm": "2026-11-02T20:25:18.179Z"
 }
