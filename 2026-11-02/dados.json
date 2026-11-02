@@ -6,10 +6,20 @@
  "data": "2026-11-02",
  "finalizado": false,
  "total": 40,
- "jogados": 36,
+ "jogados": 37,
  "classificacao": [
   {
    "pos": 1,
+   "nome": "Joel D.",
+   "j": 5,
+   "v": 5,
+   "d": 0,
+   "setsPro": 15,
+   "setsContra": 0,
+   "pontos": 10
+  },
+  {
+   "pos": 2,
    "nome": "Carenato",
    "j": 5,
    "v": 5,
@@ -19,7 +29,7 @@
    "pontos": 10
   },
   {
-   "pos": 2,
+   "pos": 3,
    "nome": "Leandrinho",
    "j": 5,
    "v": 4,
@@ -29,33 +39,23 @@
    "pontos": 9
   },
   {
-   "pos": 3,
-   "nome": "Joel D.",
-   "j": 4,
-   "v": 4,
-   "d": 0,
-   "setsPro": 12,
-   "setsContra": 0,
-   "pontos": 8
-  },
-  {
    "pos": 4,
-   "nome": "Isac",
-   "j": 5,
-   "v": 4,
-   "d": 1,
-   "setsPro": 12,
-   "setsContra": 5,
-   "pontos": 8
-  },
-  {
-   "pos": 5,
    "nome": "Thiago M.",
    "j": 5,
    "v": 3,
    "d": 2,
    "setsPro": 9,
    "setsContra": 6,
+   "pontos": 8
+  },
+  {
+   "pos": 5,
+   "nome": "Isac",
+   "j": 5,
+   "v": 4,
+   "d": 1,
+   "setsPro": 12,
+   "setsContra": 5,
    "pontos": 8
   },
   {
@@ -111,12 +111,12 @@
   {
    "pos": 11,
    "nome": "Henrique G.",
-   "j": 4,
+   "j": 5,
    "v": 1,
-   "d": 3,
+   "d": 4,
    "setsPro": 5,
-   "setsContra": 11,
-   "pontos": 5
+   "setsContra": 14,
+   "pontos": 6
   },
   {
    "pos": 12,
@@ -175,15 +175,34 @@
    "a": "Wander",
    "b": "Pedro M.",
    "rodada": 5
-  },
-  {
-   "mesa": 2,
-   "a": "Henrique G.",
-   "b": "Joel D.",
-   "rodada": 5
   }
  ],
  "resultados": [
+  {
+   "rodada": 5,
+   "a": "Henrique G.",
+   "b": "Joel D.",
+   "setsA": 0,
+   "setsB": 3,
+   "parciais": [
+    [
+     4,
+     11
+    ],
+    [
+     1,
+     11
+    ],
+    [
+     1,
+     11
+    ]
+   ],
+   "vencedor": "B",
+   "wo": false,
+   "fim": "2026-11-02T20:36:59.749Z",
+   "melhorDe": 5
+  },
   {
    "rodada": 4,
    "a": "Marcelino",
@@ -1152,6 +1171,6 @@
    "melhorDe": 5
   }
  ],
- "atualizadoEm": "2026-11-02T20:35:27.484Z",
- "conferidoEm": "2026-11-02T20:35:27.484Z"
+ "atualizadoEm": "2026-11-02T20:40:32.227Z",
+ "conferidoEm": "2026-11-02T20:40:32.227Z"
 }
